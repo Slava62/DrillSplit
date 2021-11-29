@@ -59,7 +59,7 @@ jobs:
       Solution_Name: DrillSplit.slnj                         # Replace with your solution name, i.e. MyWpfApp.sln.
       Test_Project_Path: DrillSplit.UnitTest\DrillSplit.UnitTest.csproj                 # Replace with the path to your test project, i.e. MyWpfApp.Tests\MyWpfApp.Tests.csproj.
       Project_Directory: .\DrillSplit.Lib   # DrillSplit.Lib Replace with the Wap project directory relative to the solution, i.e. MyWpfApp.Package.
-      Project_Path: DrillSplit.Lib\DrillSplit.UnitTest.csproj                   # Replace with the path to your Wap project, i.e. MyWpf.App.Package\MyWpfApp.Package.wapproj.
+      Project_Path: DrillSplit.Lib\DrillSplit.Lib.csproj                   # Replace with the path to your Wap project, i.e. MyWpf.App.Package\MyWpfApp.Package.wapproj.
 
     steps:
     - name: Checkout
