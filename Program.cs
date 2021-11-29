@@ -13,6 +13,7 @@ namespace DrillSplit.Source
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            //string temp=Environment.CurrentDirectory;
             Application.Run(new DRSMain());
         }
     }

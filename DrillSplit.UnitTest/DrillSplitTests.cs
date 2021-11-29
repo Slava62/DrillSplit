@@ -5,12 +5,14 @@ using System.IO;
 
 
 
+
 namespace DrillSplit.UnitTest
 {
     [TestClass]
     public class DrillSplitTests
     {
         private Model model;
+        private DirectoryInfo path;
 
         private string progTextString;
 
@@ -22,7 +24,9 @@ namespace DrillSplit.UnitTest
             model.progress += this.statusRefresh;
             model.number += this.setMinSplitNumber;
 
-            //System.Diagnostics.Debugger.Launch();
+          //System.Diagnostics.Debugger.Launch();
+            path = Directory.GetParent(Environment.CurrentDirectory);
+            path = Directory.GetParent(path.ToString());
         }
         [TestCleanup]
         public void teardown()
@@ -34,7 +38,7 @@ namespace DrillSplit.UnitTest
         [TestMethod]
         public void splitShortNCTest()
         {
-            progTextString = getFileData("test_short.nc");
+            progTextString = getFileData(path + "\\test_short.nc");
             model.setProgTextString(progTextString);
             try
             {
@@ -50,7 +54,7 @@ namespace DrillSplit.UnitTest
         [TestMethod]
         public void splitNCTest()
         {
-            progTextString = getFileData("test.nc");
+            progTextString = getFileData(path + "\\test.nc");
             model.setProgTextString(progTextString);
             try
             {
