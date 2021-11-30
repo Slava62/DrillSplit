@@ -18,7 +18,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrillSplit.Lib", "DrillSpli
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrillSplit.UnitTest", "DrillSplit.UnitTest\DrillSplit.UnitTest.csproj", "{B4C9953C-7736-4D83-9AB1-11702F95CB99}"
 EndProject
-Project("{C7167F0D-BC9F-4E6E-AFE1-012C56B48DB5}") = "DrilSplit.Wap", "DrilSplit.Wap\DrilSplit.Wap.wapproj", "{F84A9AA0-1692-4214-BEA9-F9AB6A79E268}"
+Project("{C7167F0D-BC9F-4E6E-AFE1-012C56B48DB5}") = "DrillSplit.Wap", "DrilSplit.Wap\DrillSplit.Wap.wapproj", "{F84A9AA0-1692-4214-BEA9-F9AB6A79E268}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
