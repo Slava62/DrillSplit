@@ -60,7 +60,7 @@
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <!--<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>-->
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
@@ -75,7 +75,7 @@
   <Import Project="$(WapProjPath)\Microsoft.DesktopBridge.targets" />
   <ItemGroup>
     <PackageReference Include="Microsoft.Windows.SDK.BuildTools" Version="10.0.19041.8" PrivateAssets="all">
-      <GeneratePathProperty>true</GeneratePathProperty>
+      <!-- <GeneratePathProperty>true</GeneratePathProperty> -->
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
