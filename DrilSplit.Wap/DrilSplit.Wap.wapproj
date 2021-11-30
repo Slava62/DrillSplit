@@ -55,7 +55,7 @@
     <TargetPlatformMinVersion>10.0.14393.0</TargetPlatformMinVersion>
     <DefaultLanguage>ru-RU</DefaultLanguage>
     <AppxPackageSigningEnabled>false</AppxPackageSigningEnabled>
-    <EntryPointProjectUniqueName>..\DrillSplit.Source.csproj</EntryPointProjectUniqueName>
+    <EntryPointProjectUniqueName>..\DrillSplit.csproj</EntryPointProjectUniqueName>
   </PropertyGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -79,7 +79,7 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DrillSplit.Source.csproj">
+    <ProjectReference Include="..\DrillSplit.csproj">
       <EmbedInteropTypes>true</EmbedInteropTypes>
     </ProjectReference>
   </ItemGroup>

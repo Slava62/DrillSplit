@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31605.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrillSplit.Source", "DrillSplit.Source.csproj", "{1D375E30-75AB-4639-B1DF-8B1655348D77}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrillSplit", "DrillSplit.csproj", "{1D375E30-75AB-4639-B1DF-8B1655348D77}"
 	ProjectSection(ProjectDependencies) = postProject
 		{DD8025C6-CEA5-431C-8EEF-D2854BB09748} = {DD8025C6-CEA5-431C-8EEF-D2854BB09748}
 	EndProjectSection
