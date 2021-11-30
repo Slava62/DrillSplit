@@ -24,9 +24,12 @@ namespace DrillSplit.UnitTest
             model.progress += this.statusRefresh;
             model.number += this.setMinSplitNumber;
 
-          //System.Diagnostics.Debugger.Launch();
+            //System.Diagnostics.Debugger.Launch();
             path = Directory.GetParent(Environment.CurrentDirectory);
-            path = Directory.GetParent(path.ToString());
+            for (int i = 0; i < 3; i++)
+            {
+                path = Directory.GetParent(path.ToString());
+            }
         }
         [TestCleanup]
         public void teardown()
