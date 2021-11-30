@@ -60,6 +60,7 @@
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
@@ -73,9 +74,13 @@
   </ItemGroup>
   <Import Project="$(WapProjPath)\Microsoft.DesktopBridge.targets" />
   <ItemGroup>
-    <PackageReference Include="Microsoft.Windows.SDK.BuildTools" Version="10.0.19041.8" PrivateAssets="all" />
+    <PackageReference Include="Microsoft.Windows.SDK.BuildTools" Version="10.0.19041.8" PrivateAssets="all">
+      <GeneratePathProperty>true</GeneratePathProperty>
+    </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DrillSplit.Source.csproj" />
+    <ProjectReference Include="..\DrillSplit.Source.csproj">
+      <EmbedInteropTypes>true</EmbedInteropTypes>
+    </ProjectReference>
   </ItemGroup>
 </Project>
